@@ -89,6 +89,7 @@ body {
     font-weight: 600;
     letter-spacing: 10px;
     margin: 20px;
+    text-align: center;
 }
 
 .contactInfo ul {
@@ -156,7 +157,37 @@ body {
     text-transform: uppercase;
     letter-spacing: 10px;
     margin-bottom: 10px;
+    text-align: center;
 }
 p{
     color: #333 ;
 }
+.about .box {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.about .box .year_company {
+    min-width: 150px;
+}
+.about .box .year_company h5 {
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+}
+.about .box .text h4 {
+    text-transform: uppercase;
+    color: #2a7da2;
+    font-size: 16px;
+}
+.skills .box {
+    position: relative;
+    width: 100%;
+}
+.skills .box h4 {
+    text-transform: uppercase;
+    color: #848c99;
+    font-weight: 500;
+}
+
+
