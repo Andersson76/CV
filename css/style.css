@@ -23,7 +23,7 @@ body {
     max-width: 1000px;
     min-height: 1000px;
     margin: 50px;
-    display: flex;
+    display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0,0,0,0.1)
 }
@@ -169,6 +169,7 @@ p{
 }
 .about .box .year_company {
     min-width: 150px;
+
 }
 .about .box .year_company h5 {
     text-transform: uppercase;
@@ -203,7 +204,46 @@ p{
     margin: 10px 0;
     text-transform: uppercase;
     text-align: center;
-
 }
+.footer a {
+    margin: 20px;
+    color: #fff;
+}
+
+.referenceBox {
+    display: flex;
+    width: 100%;
+}
+@media (max-width: 1000px) {
+
+    .container {
+        margin: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .skills ul {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .about .box {
+        flex-direction: column;
+    }
+    .about .box .year_company {
+        margin-bottom: 5px;
+    }
+    .skills ul {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media (max-width: 1000px) {
+
+    .container2 {
+        margin: 10px;
+        max-width: 50%;
+    }
+    
+}
+
 
 
