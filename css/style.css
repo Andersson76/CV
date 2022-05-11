@@ -179,15 +179,18 @@ p{
     text-transform: uppercase;
     color: #2a7da2;
     font-size: 16px;
+
 }
-.skills .box {
-    position: relative;
-    width: 100%;
+
+.skills .box ul li h4{
+    align-items: center;
 }
-.skills .box h4 {
+.skills .box ul li h4 {
+    display: grid;
     text-transform: uppercase;
     color: #848c99;
     font-weight: 500;
+    padding: 10px;
 }
 
 
